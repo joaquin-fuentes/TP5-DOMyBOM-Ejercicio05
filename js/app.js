@@ -2,7 +2,7 @@
 Realizar una web con un cronómetro, que tenga las opciones de iniciar, reiniciar (volver el cronómetro a 0) y pausar.
  */
 
-// Se obtiene el elemento que muestra el cronómetro
+// Se obtienen los elementos 
 var cronometro = document.getElementById("cronometro");
 let btnIniciar = document.getElementById("btnIniciar");
 let btnPausar = document.getElementById("btnPausar");
@@ -41,8 +41,6 @@ function iniciar() {
     btnPausar.disabled = false;
     btnReiniciar.disabled = false;
     btnIniciar.textContent = "Iniciar"
-
-
 }
 
 // Función para pausar el cronómetro
@@ -51,7 +49,6 @@ function pausar() {
     btnIniciar.disabled = false;
     btnPausar.disabled = true;
     btnIniciar.textContent = "Continuar"
-
 }
 
 // Función para reiniciarear el cronómetro
