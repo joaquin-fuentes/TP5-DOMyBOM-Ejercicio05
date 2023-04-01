@@ -1,0 +1,35 @@
+body::before {
+    content: "";
+    background-image: url(../img/bg.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+  }
+.nroGrande{
+    font-size: 70px;
+}
+.opacidad-90{
+    opacity: 0.9;
+}
+.bg-azulOscuro{
+    background-color: rgb(3, 3, 34);
+}
+.text-titulo{
+    color: rgb(3, 3, 34);
+    text-shadow: 1px 1px 1px rgb(90, 90, 90);
+    text-decoration: underline;
+}
+.btn-color{
+    background-color: white;
+    border-color: white;
+}
+.btn-color:hover{
+    border: 1px solid white
+}
